@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header {
+    position: absolute;
+    display: flex;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    
+    background: peachpuff;
+}
+
+.myname {
+   
+    font-family: 'Helvetica';
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    justify-content: space-between;
+
+
+    color: #FFFFFF;
+}
+
+.picture {
+    position: absolute;
+    box-sizing: border-box;
+    left: 0px;
+    top: 100px;
+
+    background: /Users/igordomaradsky/Desktop/MCS/2_practice/pix/myself.jpg;
+}
+
+.works {
+    position: absolute;
+    display: flex;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 450px;
+    
+    background: peachpuff;
+
+}
+
+.works-done {
+
+    font-family: 'Helvetica';
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    justify-content: left;
+
+
+    color: #FFFFFF;
+
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+#button {
+    color: white;
+}
+
+a:visited:hover {
+    color: white;
+  }
+
+  #button2 {
+      color: #FFFFFF;
+  }
+
+.about {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 300px;
+    left: 0px;
+    top: 550px;
+    
+    background: peachpuff;
+}
+
+.about-header {
+
+    font-family: 'Helvetica';
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    justify-content: left;
+
+    color: #FFFFFF;
+}
+
+.about-me {
+    position: absolute;
+    font-family: 'Helvetica';
+    font-size: 30px;
+    line-height: 57px;
+    display: flex;
+    justify-content: left;
+    width: 1440px;
+    height: 300px;
+    left: 0px;
+    top: 650px;
+
+
+    color: #FFFFFF;
+}
+
+.links {
+
+
+    position: absolute;
+    font-family: 'Helvetica';
+    font-size: 30px;
+    line-height: 57px;
+    display: flex;
+    justify-content: left;
+    width: 1440px;
+    height: 300px;
+    left: 0px;
+    top: 850px;
+    background-color: peachpuff;
+
+
+    color: #FFFFFF;
+
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+#button3 {
+    color: white;
+}
+
+a:visited:hover {
+    color: blue;
+  }
+
+  #button4 {
+      color: #FFFFFF;
+  }
+
